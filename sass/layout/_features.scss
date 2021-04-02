@@ -1,0 +1,44 @@
+.features {
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.features-list {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.feature-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--font-color);
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+.advantages {
+  padding-top: var(--accent-padding-top);
+  padding-bottom: 47px;
+}
+.feature-logo {
+  height: 70px;
+  width: 70px;
+}
+.feature-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: var(--secondary-background);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
