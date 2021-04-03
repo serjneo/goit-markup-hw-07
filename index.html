@@ -11,30 +11,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <!--Шапка сайта-->
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="navigation">
-                <a class="logo icon link" href="/" lang="en">Web<span class="logo-black">Studio</span></a>
-                    <ul class="site-nav list">
-                        <li class="head-item"><a class="nav-link link current" href="">Студия</a></li>
-                        <li class="head-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="head-item"><a class="nav-link link" href="">Контакты</a></li>
+                <a class="logo header-icon link" href="/" lang="en">Web<span class="logo-black">Studio</span></a>
+                    <ul class="menu list">
+                        <li class="menu__item"><a class="menu__link link current" href="">Студия</a></li>
+                        <li class="menu__item"><a class="menu__link link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="menu__item"><a class="menu__link link" href="">Контакты</a></li>
                     </ul>
             </nav>
                 <ul class="contacts list">
-                    <li class="head-item">
-                        <a class="mail-link link" href="mailto:info@devstudio.com">
+                    <li class="head-item menu__item">
+                        <a class="contacts-link link" href="mailto:info@devstudio.com">
                             <svg class="logo-img" width="16px" height="12px">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>  info@devstudio.com</a>
                     </li>
-                    <li class="head-item">
-                        <a class="tel-link link" href="tel:+380961111111">
+                    <li class="head-item menu__item">
+                        <a class="contacts-link link" href="tel:+380961111111">
                             <svg class="logo-img" width="10px" height="16px">
                                 <use href="./images/icons.svg#icon-tel"></use>
                             </svg >  +38 096 111 11 11</a>
@@ -377,7 +377,7 @@
                 <b class="form-item">Подпишитесь на рассылку</b>
                 <form action="#" class="footer-form">
                     <input type="email" name="footer-user-mail" class="footer-form-input" placeholder="E-mail" required>
-                    <button type="submit" class="footer-modal-btn hero-btn button">
+                    <button type="submit" class="footer-btn hero-btn button">
                         Подписаться
                         <svg class="button-icon" width="24px" height="24px">
                             <use href="./images/icons.svg#icon-send"></use>

@@ -12,15 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/portfolio.min.css">
 </head>
-
 <body>
     <!--Шапка сайта-->
 <header class="header">
     <div class="container">
         <nav class="navigation">
-            <a class="logo icon link" href="/" lang="en">Web<span class="logo-black">Studio</span></a>
+            <a class="logo header-icon link" href="/" lang="en">Web<span class="logo-black">Studio</span></a>
             <ul class="site-nav list">
                 <li class="head-item"><a class="nav-link link" href="./index.html">Студия</a></li>
                 <li class="head-item"><a class="nav-link link current" href="">Портфолио</a></li>
@@ -29,16 +28,16 @@
         </nav>
         <ul class="contacts list">
             <li class="head-item">
-                <a class="mail-link link" href="mailto:info@devstudio.com">
+                <a class="contacts-link link" href="mailto:info@devstudio.com">
                     <svg class="logo-img" width="16px" height="12px">
                         <use href="./images/icons.svg#icon-mail"></use>
-                    </svg>info@devstudio.com</a>
+                    </svg> info@devstudio.com</a>
             </li>
             <li class="head-item">
-                <a class="tel-link link" href="tel:+380961111111">
+                <a class="contacts-link link" href="tel:+380961111111">
                     <svg class="logo-img" width="10px" height="16px">
                         <use href="./images/icons.svg#icon-tel"></use>
-                    </svg>+38 096 111 11 11</a>
+                    </svg> +38 096 111 11 11</a>
             </li>
         </ul>
     </div>
@@ -253,7 +252,7 @@
                 <b class="form-item">Подпишитесь на рассылку</b>
                 <form action="#" class="footer-form">
                     <input type="email" name="footer-user-mail" class="footer-form-input" placeholder="E-mail" required>
-                    <button type="submit" class="footer-modal-btn hero-btn button">
+                    <button type="submit" class="footer-btn hero-btn button">
                         Подписаться
                         <svg class="button-icon" width="24px" height="24px">
                             <use href="./images/icons.svg#icon-send"></use>
@@ -263,55 +262,6 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="modal-btn-close" data-modal-close>
-                <svg class="btn-close" width="11px" height="11px">
-                    <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
-            <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
-            <form action="#" class="modal-form">
-                <label class="modal-form-field">
-                    Имя
-                    <span class="modal-form-input-wrapper">
-                        <input type="text" name="user-name" class="modal-form-input" required minlength="2">
-                        <svg class="form-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-form-name"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal-form-field">
-                    Телефон
-                    <span class="modal-form-input-wrapper">
-                        <input type="tel" name="user-phone" class="modal-form-input" required
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-111-11-11">
-                        <svg class="form-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-form-phone"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal-form-field">
-                    Почта
-                    <span class="modal-form-input-wrapper">
-                        <input type="email" name="user-mail" class="modal-form-input" required>
-                        <svg class="form-icon" width="18px" height="18px">
-                            <use href="./images/icons.svg#icon-form-email"></use>
-                        </svg>
-                    </span>
-                </label>
-                <label class="modal-form-field">
-                    Комментарий
-                    <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
-                </label>
-                <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
-                <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю <a href=""
-                        class="form-link">Условия договора</a></label>
-                <button type="submit" class="modal-form-btn hero-btn button">Отправить</button>
-            </form>
-        </div>
-    </div>
     <script src="./js/modal.js"></script>
-    </body>
-    
-    </html>
+</body>
+</html>

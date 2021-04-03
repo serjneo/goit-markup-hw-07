@@ -38,8 +38,8 @@
   top: 430px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--color-hover-btn);
+  &:hover,
+  &:focus {
+    background-color: var(--color-hover-btn);
+  }
 }
