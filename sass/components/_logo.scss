@@ -4,5 +4,18 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  &_theme {
+    &_light {
+      padding-top: 24px;
+      padding-bottom: 25px;
+      margin-right: 93px;
+      color: var(--font-color);
+    }
+    &_dark {
+      color: var(--background-color);
+    }
+  }
+  &_accent-text {
+    color: var(--accent-color);
+  }
 }
